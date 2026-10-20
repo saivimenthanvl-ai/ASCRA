@@ -1,7 +1,7 @@
-##ASCRA — Autonomous Supply Chain Risk & Logistics Agent
+## ASCRA — Autonomous Supply Chain Risk & Logistics Agent
 Qwen3-4B · LoRA / QLoRA fine-tuning · Supply-chain incident extraction · Structured JSON
 
-ASCRA is a research prototype for converting supplier communications and logistics notices into machine-readable supply-chain incident records. Its core is a Jupyter notebook, [`ASCRA.ipynb`](ASCRA.ipynb), for preparing data, adapting Qwen/Qwen3-4B-Instruct-2507, evaluating structured responses and running interactive inference.
+ASCRA is a research prototype for converting supplier communications and logistics notices into machine-readable supply-chain incident records. Its core is adapting Qwen/Qwen3-4B-Instruct-2507, evaluating structured responses and running interactive inference.
 Project scope: The repository contains a model-training and inference workflow, not a deployed autonomous agent. It does not prove that inventory changes, purchase orders, supplier messages or transport bookings can be executed against live enterprise systems. The notebook has no committed execution outputs or published model benchmark; performance figures must not be inferred from its configuration.
 
 1. End-to-end architecture
