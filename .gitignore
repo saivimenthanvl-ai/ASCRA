@@ -1,0 +1,8 @@
+# Large uncompressed datasets (compressed .gz versions tracked instead)
+data/m5_selling_prices.jsonl
+data/m5_sales_validation_records.jsonl
+data/train.jsonl
+
+# Python cache / checkpoints
+__pycache__/
+.ipynb_checkpoints/
